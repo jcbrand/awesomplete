@@ -1,13 +1,31 @@
 # Awesomplete
-[![npm version](https://img.shields.io/npm/v/awesomplete.svg)](https://www.npmjs.com/package/awesomplete)
-[![Build Status](https://img.shields.io/travis/LeaVerou/awesomplete/gh-pages.svg)](https://travis-ci.org/LeaVerou/awesomplete)
-[![Code Climate](https://img.shields.io/codeclimate/github/LeaVerou/awesomplete.svg)](https://codeclimate.com/github/LeaVerou/awesomplete)
-[![Test Coverage](https://img.shields.io/codeclimate/coverage/github/LeaVerou/awesomplete.svg)](https://codeclimate.com/github/LeaVerou/awesomplete/coverage)
 
 http://leaverou.github.io/awesomplete/
 
 Awesomplete is an ultra lightweight, customizable, simple autocomplete widget with zero dependencies, built with modern standards for modern browsers.
 
+[![npm version](https://img.shields.io/npm/v/awesomplete.svg)](https://www.npmjs.com/package/awesomplete)
+[![Build Status](https://img.shields.io/travis/LeaVerou/awesomplete/gh-pages.svg)](https://travis-ci.org/LeaVerou/awesomplete)
+[![Code Climate](https://img.shields.io/codeclimate/github/LeaVerou/awesomplete.svg)](https://codeclimate.com/github/LeaVerou/awesomplete)
+[![Test Coverage](https://img.shields.io/codeclimate/coverage/github/LeaVerou/awesomplete.svg)](https://codeclimate.com/github/LeaVerou/awesomplete/coverage)
+
+## Why was this forked?
+
+The upstream version of Awesomplete currently renders suggestions as HTML.
+
+If the suggestion text is somehow derived from user-generated data, then it
+might be possible for an attacker to craft a malicious script that will execute
+as soon as it is rendered as a suggestion by awesomeplete.
+
+This fork adds a patch which makes sure that the suggestion text is rendered as
+`textContent` and not as HTML.
+
+A pull request with this patch was rejected by the upstream project, without
+any alternative solution being proposed.
+
+See https://github.com/LeaVerou/awesomplete/pull/17082
+
+This leaves upstream awesomplete vulnerable to the above mentioned attack.
 
 ## Basic Usage
 
