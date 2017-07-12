@@ -1,16 +1,16 @@
 {
-  "name": "awesomplete",
-  "version": "1.1.1",
-  "description": "http://leaverou.github.io/awesomplete/",
+  "name": "awesomplete-avoid-xss",
+  "version": "1.1.2",
+  "description": "Fork of awesomplete which avoids XSS by rendering suggestions as text",
   "main": "awesomplete.js",
   "scripts": {
     "test": "karma start --single-run"
   },
-  "repository": "LeaVerou/awesomplete",
+  "repository": "jcbrand/awesomplete",
   "author": "Lea Verou",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/LeaVerou/awesomplete/issues"
+    "url": "https://github.com/jcbrand/awesomplete/issues"
   },
   "homepage": "https://leaverou.github.io/awesomplete/",
   "devDependencies": {

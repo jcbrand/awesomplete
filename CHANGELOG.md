@@ -1,3 +1,16 @@
+# 1.1.2 (Unreleased)
+
+Patched version 1.1.2 of the upstream awesomplete.
+
+## Fixes
+
+* Avoid script injections when rendering suggestions.
+  For context, see: https://github.com/LeaVerou/awesomplete/pull/17082
+
+---
+Forked
+---
+
 # 1.1.1 (2016-06-25)
 
 ## Fixes

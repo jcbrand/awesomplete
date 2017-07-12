@@ -4,10 +4,10 @@ http://leaverou.github.io/awesomplete/
 
 Awesomplete is an ultra lightweight, customizable, simple autocomplete widget with zero dependencies, built with modern standards for modern browsers.
 
-[![npm version](https://img.shields.io/npm/v/awesomplete.svg)](https://www.npmjs.com/package/awesomplete)
-[![Build Status](https://img.shields.io/travis/LeaVerou/awesomplete/gh-pages.svg)](https://travis-ci.org/LeaVerou/awesomplete)
-[![Code Climate](https://img.shields.io/codeclimate/github/LeaVerou/awesomplete.svg)](https://codeclimate.com/github/LeaVerou/awesomplete)
-[![Test Coverage](https://img.shields.io/codeclimate/coverage/github/LeaVerou/awesomplete.svg)](https://codeclimate.com/github/LeaVerou/awesomplete/coverage)
+[![npm version](https://img.shields.io/npm/v/awesomplete-avoid-xss.svg)](https://www.npmjs.com/package/awesomplete-avoid-xss)
+[![Build Status](https://img.shields.io/travis/jcbrand/awesomplete/gh-pages.svg)](https://travis-ci.org/jcbrand/awesomplete)
+[![Code Climate](https://img.shields.io/codeclimate/github/jcbrand/awesomplete.svg)](https://codeclimate.com/github/jcbrand/awesomplete)
+[![Test Coverage](https://img.shields.io/codeclimate/coverage/github/jcbrand/awesomplete.svg)](https://codeclimate.com/github/jcbrand/awesomplete/coverage)
 
 ## Why was this forked?
 
@@ -25,7 +25,8 @@ any alternative solution being proposed.
 
 See https://github.com/LeaVerou/awesomplete/pull/17082
 
-This leaves upstream awesomplete vulnerable to the above mentioned attack.
+This leaves upstream awesomplete vulnerable to the above mentioned attack
+(under the right circumstances).
 
 ## Basic Usage
 
